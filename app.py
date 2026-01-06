@@ -143,5 +143,4 @@ if uploaded_zip is not None:
     combined_extracted = pd.concat(all_extracted, ignore_index=True) if all_extracted else pd.DataFrame()
 
 
-if st.button("Download all cleaned data"):
     show_download_dialog()
